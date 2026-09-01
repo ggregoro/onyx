@@ -1,0 +1,39 @@
+# Vantablack Color — a fork of Omarchy's stock "vantablack".
+# Same pure-black background and white foreground; the greyscale UI
+# accents are kept. The ONLY change: the 8 ANSI colours (+ brights) are
+# real colours instead of shades of grey, so terminal text (syntax
+# highlighting, ls, git, etc.) shows in colour.
+# Wallpapers: the 5 images from ~/Pictures (in backgrounds/).
+
+mode = "dark"
+
+accent = "#8d8d8d"
+selection = "#1a1a1a"
+muted = "#7a7a7a"
+
+background = "#000000"
+dark_background = "#090909"
+darker_background = "#070707"
+lighter_background = "#1a1a1a"
+
+foreground = "#ffffff"
+dark_foreground = "#505050"
+light_foreground = "#ececec"
+bright_foreground = "#ffffff"
+
+# --- coloured ANSI palette (tuned to read well on pure black) ---
+red = "#f7768e"
+yellow = "#e0af68"
+orange = "#ff9e64"
+green = "#9ece6a"
+cyan = "#7dcfff"
+blue = "#7aa2f7"
+magenta = "#bb9af7"
+brown = "#c0a36e"
+
+bright_red = "#ff7a93"
+bright_yellow = "#ffb86c"
+bright_green = "#b9f27c"
+bright_cyan = "#a4daff"
+bright_blue = "#8fb4ff"
+bright_magenta = "#c7a9ff"
