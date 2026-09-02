@@ -6,9 +6,25 @@ A stark **pure-black** desktop theme for [Omarchy](https://omarchy.org/):
 grey, so terminal text (syntax highlighting, `ls`, `git`, TUIs) reads in
 full colour on the black.
 
-**Why:** Omarchy's stock monochrome themes render terminal output in
-greyscale, which many people find hard to read. This keeps the pure-black
-look but puts real ANSI colour back so tokens actually separate again.
+## Why
+
+Dark terminal themes tend to fail readability in one of two ways, and
+both come down to too little hue separation in the output:
+
+- **Monochrome / greyscale** (Omarchy's stock `vantablack`, `ash`, and
+  friends): terminal text is rendered in shades of grey, so `ls`, `git`,
+  diffs, and syntax highlighting all collapse to near-uniform low
+  contrast.
+- **Single-accent-hue** (a theme keyed entirely on one neon colour):
+  there's colour, but every ANSI slot leans the same direction, so
+  tokens still don't pull apart — and at low luminance on near-black it
+  reads muddy rather than "neon".
+
+Pure Black Color keeps the stark `#000000` background but gives the 8
+ANSI slots genuinely distinct hues (red / green / yellow / blue /
+magenta / cyan / orange / brown), each tuned to hold its own luminance
+on pure black. Colour is doing structural work — separating meaning —
+not just setting a mood.
 
 - `background = #000000`, `foreground = #ffffff`
 - ANSI palette: a Tokyo-Night-ish set tuned to read well on pure black
