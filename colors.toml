@@ -1,9 +1,10 @@
-# Vantablack Color — a fork of Omarchy's stock "vantablack".
-# Same pure-black background and white foreground; the greyscale UI
-# accents are kept. The ONLY change: the 8 ANSI colours (+ brights) are
-# real colours instead of shades of grey, so terminal text (syntax
-# highlighting, ls, git, etc.) shows in colour.
-# Wallpapers: the 5 images from ~/Pictures (in backgrounds/).
+# Pure Black Color — an Omarchy theme.
+# Stark pure-black background with white foreground and greyscale UI
+# accents, but the 8 ANSI colours (+ brights) are real colours instead
+# of shades of grey, so terminal text (syntax highlighting, ls, git,
+# TUIs, etc.) shows in colour.
+# Started from Omarchy's stock "vantablack" background/foreground.
+# Wallpapers: 5 images in backgrounds/.
 
 mode = "dark"
 
