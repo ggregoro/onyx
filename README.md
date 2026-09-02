@@ -6,6 +6,8 @@ A stark **pure-black** desktop theme for [Omarchy](https://omarchy.org/):
 grey, so terminal text (syntax highlighting, `ls`, `git`, TUIs) reads in
 full colour on the black.
 
+![Pure Black Color — LazyVim on colors.toml, btop, and Neo-tree on the theme's own wallpaper](screenshot.webp)
+
 ## Why
 
 Dark terminal themes tend to fail readability in one of two ways, and
