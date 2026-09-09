@@ -1,4 +1,4 @@
-# Pure Black Color — an Omarchy theme
+# Onyx — an Omarchy theme
 
 A stark **pure-black** desktop theme for [Omarchy](https://omarchy.org/):
 `#000000` background, white foreground, greyscale UI accents — but the
@@ -6,7 +6,7 @@ A stark **pure-black** desktop theme for [Omarchy](https://omarchy.org/):
 grey, so terminal text (syntax highlighting, `ls`, `git`, TUIs) reads in
 full colour on the black.
 
-![Pure Black Color — LazyVim on colors.toml, btop, and Neo-tree on the theme's own wallpaper](screenshot.webp)
+![Onyx — LazyVim on colors.toml, btop, and Neo-tree on the theme's own wallpaper](screenshot.webp)
 
 ## Why
 
@@ -22,7 +22,7 @@ both come down to too little hue separation in the output:
   tokens still don't pull apart — and at low luminance on near-black it
   reads muddy rather than "neon".
 
-Pure Black Color keeps the stark `#000000` background but gives the 8
+Onyx keeps the stark `#000000` background but gives the 8
 ANSI slots genuinely distinct hues (red / green / yellow / blue /
 magenta / cyan / orange / brown), each tuned to hold its own luminance
 on pure black. Colour is doing structural work — separating meaning —
@@ -41,16 +41,16 @@ The pure-black background/foreground started from Omarchy's stock
 ## Install
 
 ```bash
-omarchy theme install https://github.com/ggregoro/omarchy-pure-black-color
-omarchy theme set "Pure Black Color"
+omarchy theme install https://github.com/ggregoro/onyx
+omarchy theme set Onyx
 ```
 
 Or clone it manually:
 
 ```bash
-git clone https://github.com/ggregoro/omarchy-pure-black-color \
-  ~/.config/omarchy/themes/pure-black-color
-omarchy theme set pure-black-color
+git clone https://github.com/ggregoro/onyx \
+  ~/.config/omarchy/themes/onyx
+omarchy theme set onyx
 ```
 
 Cycle backgrounds with `Super+Ctrl+Space` or `omarchy theme bg next`.
@@ -73,7 +73,7 @@ see-through, not frosted glass.)
 ## Tweaking
 
 Edit `colors.toml` (or `icons.theme`), then re-run
-`omarchy theme set pure-black-color`. Everything else — Hyprland border
+`omarchy theme set onyx`. Everything else — Hyprland border
 colours, waybar, btop, Neovim, etc. — regenerates from `colors.toml`.
 To tint borders/waybar too, change `accent` from grey `#8d8d8d` to one
 of the ANSI colours.
