@@ -55,6 +55,20 @@ omarchy theme set onyx
 
 Cycle backgrounds with `Super+Ctrl+Space` or `omarchy theme bg next`.
 
+## Boot and login screen
+
+The theme carries a matching unlock screen: Omarchy's green pixel
+`OMARCHY` logo (from the stock Hackerman theme) on pure black with white text.
+It styles both the boot splash and the login screen, and it is listed in
+Omarchy's unlock screen picker. To apply it by hand:
+
+```bash
+omarchy plymouth set-by-theme onyx
+```
+
+It asks for your password and rebuilds the boot image, so give it a few
+seconds. `omarchy plymouth reset` puts Omarchy's default back.
+
 ## One extra step: terminal opacity (optional)
 
 Omarchy strips terminal configs from an installed theme and regenerates
